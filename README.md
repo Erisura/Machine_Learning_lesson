@@ -1,5 +1,5 @@
 # Machine Learning Lesson
-the experiments of Machine Learning lesson
+the experiments of Machine Learning lesson<br/>
 实验使用`python 3.6`和`sklearn`完成
 ## Experiment 1: Linear Regression
 
