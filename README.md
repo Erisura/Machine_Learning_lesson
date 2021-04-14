@@ -45,6 +45,7 @@ plt.show()
 
 ### 实验任务：
   使用支持向量机对**iris数据集**进行预测
+  
 ### 实验步骤：
 <br/>由于整体实验步骤和上述实验类似，不再详细介绍
 <br/>实验中，分别使用了`rbf`、`linear`、`poly`三种内核
@@ -55,7 +56,8 @@ plt.show()
 ### 实验任务：
   分别使用`K-means`、`高斯混合模型(使用EM算法完成迭代)`、`谱聚类`对**iris数据集**进行聚类实验
 ### 实验步骤：
-  可见代码
+  *可见代码*
+  
 <br/>分别的聚类效果如下:<br/>
 ![原始类别](https://user-images.githubusercontent.com/72057715/114652558-b23c3c00-9d18-11eb-9687-8ae9bf7fe098.png)
 ![K-means](https://user-images.githubusercontent.com/72057715/114652569-b6685980-9d18-11eb-83a6-7b40ab0058e4.png)
