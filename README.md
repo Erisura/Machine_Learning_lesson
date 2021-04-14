@@ -7,8 +7,9 @@ the experiments of Machine Learning lesson
   使用波士顿房价预测模型进行线性回归
   1. 数据读入<br/>方式1：`data = pd.read_csv('boston.csv')`<br/>方式2：`data = sklearn.datasets.load_boston()`
   2. 定义特征值和目标值<br/>根据题目要求，定义如下特征值和目标值(其他值的相关性太低，不予考虑)：<br/>`data_used = data[['crim', 'rm', 'lstat', 'medv']]`
-  3. 特征值的统计性描述<br/>(25%、50%、75%、max为四分位点)![image](https://user-images.githubusercontent.com/72057715/114651721-1100b600-9d17-11eb-9d58-4db2152c7dff.png)
-  4. 进行训练和预测<br/>
+  3. 特征值的统计性描述<br/>(25%、50%、75%、max为四分位点)
+![image](https://user-images.githubusercontent.com/72057715/114651721-1100b600-9d17-11eb-9d58-4db2152c7dff.png)
+  5. 进行训练和预测<br/>
 ```
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
 lr = LinearRegression()
@@ -45,11 +46,11 @@ plt.show()
 <br/>实验中，分别使用了`rbf`、`linear`、`poly`三种内核
 详细可见代码
 
-## Experiment2: Clustering
+## Experiment3: Clustering
 
 ### 使用iris数据集进行聚类实验
 <br/>分别使用了`K-means`、`高斯混合模型(使用EM算法完成迭代)`、`谱聚类`完成实验
-<br/>分别的聚类效果如下：
+<br/>分别的聚类效果如下:
 ![原始类别](https://user-images.githubusercontent.com/72057715/114652558-b23c3c00-9d18-11eb-9687-8ae9bf7fe098.png)
 ![K-means](https://user-images.githubusercontent.com/72057715/114652569-b6685980-9d18-11eb-83a6-7b40ab0058e4.png)
 ![GMM](https://user-images.githubusercontent.com/72057715/114652572-ba947700-9d18-11eb-8b2d-0e1849d7ed1e.png)
