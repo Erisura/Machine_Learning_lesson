@@ -3,7 +3,7 @@ the experiments of Machine Learning lesson
 实验使用`python 3.6`和`sklearn`完成
 ## Experiment 1: Linear Regression
 
-###实验任务：
+### 实验任务：
   使用波士顿房价预测模型进行线性回归
   1. 数据读入<br/>方式1：`data = pd.read_csv('boston.csv')`<br/>方式2：`data = sklearn.datasets.load_boston()`
   2. 定义特征值和目标值<br/>根据题目要求，定义如下特征值和目标值(其他值的相关性太低，不予考虑)：<br/>`data_used = data[['crim', 'rm', 'lstat', 'medv']]`
